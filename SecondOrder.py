@@ -42,5 +42,9 @@ tf=int(input("Enter stopping time : "))
 t , y = euler_method(y0,z0,num_steps,tf, m , k ,c)
 
 
+plt.xlabel("Time")
+plt.ylabel("Function Y")
+
+
 plt.plot(t,y)
 plt.show()
